@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# SQLite database
+instance/
+*.db
+
+# Env variables
+.env
