@@ -50,7 +50,7 @@ The Vehicle Parking Management System is a web-based application that allows use
 - Python 3.12+
 - Node.js 18+
 - Redis (running on localhost:6379)
-- MailHog (running on localhost:1025 for SMTP, localhost:8025 for web UI)
+- MailHog (running on localhost:1025 for SMTP, localhost:8025 for MailHog web UI)
 
 ### Backend Setup
 ```bash
@@ -96,7 +96,7 @@ chmod +x MailHog_linux_amd64
 ./MailHog_linux_amd64
 ```
 
-- Access Web UI: `http://localhost:8025`
+- Access Mailhog Web UI: `http://localhost:8025`
 - SMTP Server: `localhost:1025`
 
 ---
